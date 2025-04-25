@@ -14,10 +14,10 @@ public class Main {
             if(alinan_sayi<rastgeleSayi){
                 System.out.println("Daha buyuk sayi giriniz");
             }
-            if(alinan_sayi>rastgeleSayi) {
+            if(alinan_sayi>rastgeleSayi){
                 System.out.println("Daha kucuk sayi giriniz");
             }
-            if (alinan_sayi==rastgeleSayi) {
+            else{
                 System.out.println("Tebrikler!Doğru tahmin.");
                 break;
             }
